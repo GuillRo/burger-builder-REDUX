@@ -4,7 +4,7 @@ module.exports = {
         "es6": true,
         "node": true
     },
-    "extends": "airbnb",
+    "extends": ["standard", "react-app"],
     "globals": {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"
