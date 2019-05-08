@@ -5,19 +5,21 @@
   overflow: auto;
   text-align: center;
   font-weight: bold;
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
 }
 
 @media(min-width: 50px) {
   .Burger{
     width: 60vw;
     height: 85vw;
+    font-size: 4vw;
   }
 }
 @media(min-width: 600px){
   .Burger{
     width: 450px;
     height: 600px;
+    font-size: 1.2rem;
   }
 }
 
