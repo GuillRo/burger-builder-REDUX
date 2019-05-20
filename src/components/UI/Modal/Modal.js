@@ -6,7 +6,7 @@ import classes from './Modal.module.css'
 class Modal extends Component {
   // N'update pas la modale dès que l'on ajoute un ingrédient, mais seulement quand on click sur order
   shouldComponentUpdate (nextProps, nextState) {
-    return nextProps.show !== this.props.show
+    return nextProps.show !== this.props.show || nextProps.children !== this.props.children
   }
 
   componentWillUpdate () {
